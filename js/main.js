@@ -132,7 +132,7 @@ $('#hitokoto').click(function () {
 //请前往 https://www.mxnzp.com/doc/list 申请 app_id 和 app_secret
 //请前往 https://dev.qweather.com/ 申请 key
 const add_id = "urhq9tfvhnzcnltr"; // app_id
-const app_secret = "R3lxTmtPNIZyYjNJRTZ3ak0rZk1Sdz09"; // app_secret
+const app_secret = "R3lxTmtPNlZyYjNJRTZ3ak0rZk1Sdz09"; // app_secret
 const key = "4134e7e57d6c4ef5a3c40d8d278b74e0" // key
 function getWeather() {
     fetch("https://www.mxnzp.com/api/ip/self?app_id=" + add_id + "&app_secret=" + app_secret)
@@ -405,7 +405,7 @@ let content = `
 版 本 号：3.4
 更新日期：2022-07-24
 
-主页:  https://www.yinguai.art
+主页:  https://www.yinguai.club
 Github:  https://github.com/yinguai
 `
 console.log(`%c${title1} %c${title2}
