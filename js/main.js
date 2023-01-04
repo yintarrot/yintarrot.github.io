@@ -52,7 +52,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '欢迎来到咱的主页'
         });
     }, 800);
 
@@ -82,16 +82,16 @@ setTimeout(function () {
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
-// new_element=document.createElement("link");
-// new_element.setAttribute("rel","stylesheet");
-// new_element.setAttribute("type","text/css");
-// new_element.setAttribute("href","./css/lantern.css");
-// document.body.appendChild(new_element);
+ new_element=document.createElement("link");
+ new_element.setAttribute("rel","stylesheet");
+ new_element.setAttribute("type","text/css");
+ new_element.setAttribute("href","./css/lantern.css");
+ document.body.appendChild(new_element);
 
-// new_element=document.createElement("script");
-// new_element.setAttribute("type","text/javascript");
-// new_element.setAttribute("src","./js/lantern.js");
-// document.body.appendChild(new_element);
+ new_element=document.createElement("script");
+ new_element.setAttribute("type","text/javascript");
+ new_element.setAttribute("src","./js/lantern.js");
+ document.body.appendChild(new_element);
 
 //获取一言
 fetch('https://v1.hitokoto.cn?max_length=24')
@@ -255,7 +255,7 @@ $("#bilibili").mouseover(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#telegram").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
+    $("#link-text").html("小飞机 ~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -296,7 +296,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change1").html("一个建立于 21 世纪的小站，承载了一些记忆");
     }
 });
 
@@ -345,7 +345,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change1").html("一个建立于 21 世纪的小站，承载了一些记忆");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
@@ -378,7 +378,7 @@ document.oncontextmenu = function () {
     iziToast.show({
         timeout: 2000,
         icon: "fa-solid fa-circle-exclamation",
-        message: '为了浏览体验，本站禁用右键'
+        message: '右键被小小萌吃了'
     });
     return false;
 }

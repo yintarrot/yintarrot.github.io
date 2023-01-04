@@ -56,7 +56,7 @@ if (hour < 6) {
 } else if (hour < 12) {
     var hello = "上午好";
 } else if (hour < 14) {
-    var hello = "中午好";
+    var hello = "午安";
 } else if (hour < 17) {
     var hello = "下午好";
 } else if (hour < 19) {
